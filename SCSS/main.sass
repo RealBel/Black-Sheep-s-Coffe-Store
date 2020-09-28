@@ -1,0 +1,346 @@
+$colorLetra: #ffffff
+$colorBlanco: #ffffff
+$colorDorado: #F2994B
+$colorVerde: #005504
+$colorNegro:#0e0e0e
+    
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+body
+    font-family: 'Lobster'
+    font-size: 16px
+    background: $colorNegro
+    color: $colorLetra
+
+.container
+    width: 90%
+    max-width: 1000px
+    margin: auto
+    overflow: hidden
+
+    //------------HEADER 
+
+header
+    width: 100%
+    background: url(../IMG/fondo/blacksheep11.jpg)
+    background-size: cover
+    background-attachment: fixed
+    background-position: center 0
+    .container
+        position: relative
+        height: 700px
+        .menu
+            text-align: right
+            width: 100%
+            .Weed
+                color: $colorVerde
+                font-size: 50px
+                &:hover
+                    color: $colorLetra
+                    background: rgba($colorVerde, 1 )
+                    border-radius: 100%
+                    padding: 5px 7.5px
+                    cursor: pointer 
+                    text-shadow: 0 0 5px rgba($colorVerde,1),0 0 10px rgba($colorVerde,1),0 0 20px rgba($colorVerde,1),0 0 40px $colorVerde,0 0 80px rgba($colorVerde,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorVerde,1),0 0 140px rgba($colorVerde,1),0 0 180px rgba($colorVerde,1)
+            a
+                color: $colorLetra
+                font-weight: 300
+                font-size: 20px
+                display: inline-block
+                margin: 50px 20px
+                text-decoration: none
+                position: relative
+                padding: 5px 5px
+                &:hover
+                    
+                    color: $colorDorado
+                    border-radius: 1.5px
+                    text-shadow: 0 0 5px rgba($colorDorado,1),0 0 10px rgba($colorDorado,1),0 0 20px rgba($colorDorado,1),0 0 40px $colorDorado,0 0 80px rgba($colorDorado,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorVerde,1),0 0 140px rgba($colorDorado,1),0 0 180px rgba($colorDorado,1)                    
+        .textos
+            width: 100%
+            color: $colorLetra
+            position: absolute
+            top: 50%
+            margin-top: -52px
+            text-align: center
+            
+            
+            .name
+                font-size: 64px
+                font-weight: 600
+                font-family: 'Lobster'
+                
+            
+                span
+                    font-weight: 300
+                .coffe
+                    font-family: 'Alinea Typeface'
+                    color: $colorVerde
+                    font-size: 82px
+                    margin-left: 0px
+                    &:hover
+                        color: $colorLetra
+                        cursor: pointer 
+                        text-shadow: 0 0 5px rgba($colorVerde,1),0 0 10px rgba($colorVerde,1),0 0 20px rgba($colorVerde,1),0 0 40px $colorVerde,0 0 80px rgba($colorVerde,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorVerde,1),0 0 140px rgba($colorVerde,1),0 0 180px rgba($colorVerde,1)
+                        
+            h3
+                font-weight: 300
+                font-size: 25px
+                font-style: cursive
+                display: flex
+                margin: auto
+                justify-content: center
+                
+                p
+
+                    padding: 5px
+                    font-family: 'Alinea Typeface'
+                    font-size: 40px
+                    
+                .neonverde
+                    text-shadow: 0 0 5px rgba($colorVerde,1),0 0 10px rgba($colorVerde,1),0 0 20px rgba($colorVerde,1),0 0 40px $colorVerde,0 0 80px rgba($colorVerde,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorVerde,1),0 0 140px rgba($colorVerde,1),0 0 180px rgba($colorVerde,1)
+                .neondorado
+                    text-shadow: 0 0 5px rgba($colorDorado,1),0 0 10px rgba($colorDorado,1),0 0 20px rgba($colorDorado,1),0 0 40px $colorDorado,0 0 80px rgba($colorDorado,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorVerde,1),0 0 140px rgba($colorDorado,1),0 0 180px rgba($colorDorado,1)
+                .neonblanco
+                    text-shadow: 0 0 5px rgba($colorBlanco,1),0 0 10px rgba($colorBlanco,1),0 0 20px rgba($colorBlanco,1),0 0 40px $colorBlanco,0 0 80px rgba($colorBlanco,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorBlanco,1),0 0 140px rgba($colorBlanco,1),0 0 180px rgba($colorBlanco,1)
+
+
+//------------ MAIN
+
+.main
+    background: url('../IMG/dark_wood.png')
+    background-repeat: repeat
+    .about
+        .container
+            overflow: visible
+            position: relative
+
+            .foto
+                width: 55%               
+                position: relative
+                top: 400px
+                z-index: 0
+                box-shadow: 0px 0px 15px rgba(#000000, 0.5)
+                img
+                    vertical-align: top
+                    width: 100%
+                    
+        article
+            background: rgba(#141414, 0.7)
+            padding: 15px
+            
+            width: 50%
+            position: relative
+            top: 300px
+            right: 75px
+            z-index: 1
+            box-shadow: 0px 0px 15px rgba(#000000, 0.35)
+            float: right
+            
+            h3
+                font-size: 90px
+                margin-bottom: 40px
+                color: $colorDorado
+                font-family: 'Alinea Typeface'
+                text-align: center
+                &:hover
+                    text-shadow: 0 0 5px rgba($colorDorado,1),0 0 10px rgba($colorDorado,1)
+                
+
+            p
+                line-height: 28px
+                margin-bottom: 15px
+                font-family: 'Segoe UI'
+                font-size: 19px
+            
+                
+    .menu
+        padding-top: 100px
+        margin-bottom: 40px
+        
+        
+        .container-menu
+            border: 5px solid #575757
+            border-radius: 5px
+            box-shadow: 0px 0px 15px rgba(#000000, 0.35)
+            background: rgba($colorNegro ,  0.6)
+            padding-top: 10px
+            overflow: hidden
+            
+            
+        .container-menu2
+            border: 2px solid $colorLetra
+            background: transparent
+            padding-top: 10px
+            overflow: hidden
+
+        .titulo
+            font-size: 70px
+            font-weight: 300
+            text-align: center
+            margin-bottom: 40px
+            font-family: 'Alinea Typeface'
+            color: $colorVerde
+            &:hover
+                text-shadow: 0 0 5px rgba($colorVerde,1),0 0 10px rgba($colorVerde,1)
+        article
+            width: 50%
+            float: left
+            padding-top: 20px
+            text-justify: justify
+          
+            
+            .descripcion
+                font-size: 20px
+                color: #F25764
+                clear: both
+            
+        .categoria
+            font-size: 22px
+            font-weight: 700
+            margin-bottom: 40px
+            text-align: center
+        .platillo
+            margin-bottom: 30px
+            padding-bottom: 20px
+            margin: 65px
+            border-bottom: 4px dashed
+            overflow: hidden
+            
+        .nombre
+            font-size: 35px
+            margin-bottom: 15px
+            
+            
+        .precio
+            font-size: 40px
+            margin-bottom: 15px
+            float: right
+    .galeria
+        overflow: hidden
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-around
+        width: 90%
+        margin: auto
+        border: 3px solid #505050
+        .foto
+            width: 25%
+            
+            
+            img
+                
+                width: 100%
+                vertical-align: top
+                opacity: .6
+                max-width: 500px
+                max-height: 500px
+                // border: 1px solid
+                //border-color: rgba($colorVerde, 0.5) 
+                border-radius: 1px
+                
+                cursor: pointer
+                &:hover
+                    
+                    opacity: 1
+                    -webkit-transition: all .3s ease
+                    -o-transition: all .3s ease
+                    transition: all .3s ease
+
+    .location
+        background: rgba($colorNegro, 0.6 ) 
+        padding: 60px 0
+        overflow: hidden
+        font-size: 30px
+        line-height: 65px
+        width: 80%
+        margin: 30px auto
+        box-shadow: 0px 0px 15px rgba(#000000, 0.5)
+        border: 3px solid #505050
+        border-color: rgba(#505050, 0.9)
+        .titulo
+            text-align: center
+            font-size: 90px
+            line-height: 40px
+            font-weight: 300
+            padding-top: 20px
+            margin-bottom: 100px
+            font-family:  'Alinea Typeface'
+            color: $colorVerde
+        .direccion
+            float: left
+            width: 50%
+            .rec
+                color: $colorVerde
+        .horarios
+            float: right
+            width: 50%
+            text-align: center
+            overflow: hidden
+           
+
+            
+            .entre-semana
+                width: 50%
+                float: left
+                text-align: center
+                            
+            .finde-semana
+
+                width: 50%
+                float: left
+                text-align: center
+
+            .rec
+                color: $colorVerde      
+            h4
+                color: $colorVerde
+                font-family:  'Alinea Typeface'
+                font-size: 75px
+                margin-bottom: 40px
+                text-align: center
+    .map
+        width: 90%
+        margin: 10px auto       
+        overflow: hidden
+        box-shadow: 0px 0px 15px rgba(#000000, 0.5)
+        border: 3px solid
+        border-color: rgba(#505050, 0.9)
+        iframe
+
+            width: 100%
+            max-height: 600px
+
+// -------------- FOOTER
+footer
+    
+
+    .copy
+        text-align: center
+        padding: 40px 0
+        
+        .neonverde
+            &:hover
+                text-shadow: 0 0 5px rgba($colorVerde,1),0 0 10px rgba($colorVerde,1),0 0 20px rgba($colorVerde,1),0 0 40px $colorVerde,0 0 80px rgba($colorVerde,1),0 0 90px rgba($colorVerde,1),0 0 100px rgba($colorVerde,1),0 0 140px rgba($colorVerde,1),0 0 180px rgba($colorVerde,1)
+                cursor: pointer
+//-------------------------- MEDIAQUERIES
+
+@media screen and (max-width: 800px)
+    header
+        .menu
+            text-align: center
+        .textos
+            h3
+                font-size: 18px
+            .name
+                font-size: 30px
+  
+
+            
+                

@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lobster";
+  font-size: 16px;
+  background: #0e0e0e;
+  color: #ffffff; }
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  background: url(../IMG/fondo/blacksheep11.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0; }
+  header .container {
+    position: relative;
+    height: 700px; }
+    header .container .menu {
+      text-align: right;
+      width: 100%; }
+      header .container .menu .Weed {
+        color: #005504;
+        font-size: 50px; }
+        header .container .menu .Weed:hover {
+          color: #ffffff;
+          background: #005504;
+          border-radius: 100%;
+          padding: 5px 7.5px;
+          cursor: pointer;
+          text-shadow: 0 0 5px #005504, 0 0 10px #005504, 0 0 20px #005504, 0 0 40px #005504, 0 0 80px #005504, 0 0 90px #005504, 0 0 100px #005504, 0 0 140px #005504, 0 0 180px #005504; }
+      header .container .menu a {
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 20px;
+        display: inline-block;
+        margin: 50px 20px;
+        text-decoration: none;
+        position: relative;
+        padding: 5px 5px; }
+        header .container .menu a:hover {
+          color: #F2994B;
+          border-radius: 1.5px;
+          text-shadow: 0 0 5px #f2994b, 0 0 10px #f2994b, 0 0 20px #f2994b, 0 0 40px #F2994B, 0 0 80px #f2994b, 0 0 90px #005504, 0 0 100px #005504, 0 0 140px #f2994b, 0 0 180px #f2994b; }
+    header .container .textos {
+      width: 100%;
+      color: #ffffff;
+      position: absolute;
+      top: 50%;
+      margin-top: -52px;
+      text-align: center; }
+      header .container .textos .name {
+        font-size: 64px;
+        font-weight: 600;
+        font-family: "Lobster"; }
+        header .container .textos .name span {
+          font-weight: 300; }
+        header .container .textos .name .coffe {
+          font-family: "Alinea Typeface";
+          color: #005504;
+          font-size: 82px;
+          margin-left: 0px; }
+          header .container .textos .name .coffe:hover {
+            color: #ffffff;
+            cursor: pointer;
+            text-shadow: 0 0 5px #005504, 0 0 10px #005504, 0 0 20px #005504, 0 0 40px #005504, 0 0 80px #005504, 0 0 90px #005504, 0 0 100px #005504, 0 0 140px #005504, 0 0 180px #005504; }
+      header .container .textos h3 {
+        font-weight: 300;
+        font-size: 25px;
+        font-style: cursive;
+        display: flex;
+        margin: auto;
+        justify-content: center; }
+        header .container .textos h3 p {
+          padding: 5px;
+          font-family: "Alinea Typeface";
+          font-size: 40px; }
+        header .container .textos h3 .neonverde {
+          text-shadow: 0 0 5px #005504, 0 0 10px #005504, 0 0 20px #005504, 0 0 40px #005504, 0 0 80px #005504, 0 0 90px #005504, 0 0 100px #005504, 0 0 140px #005504, 0 0 180px #005504; }
+        header .container .textos h3 .neondorado {
+          text-shadow: 0 0 5px #f2994b, 0 0 10px #f2994b, 0 0 20px #f2994b, 0 0 40px #F2994B, 0 0 80px #f2994b, 0 0 90px #005504, 0 0 100px #005504, 0 0 140px #f2994b, 0 0 180px #f2994b; }
+        header .container .textos h3 .neonblanco {
+          text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white, 0 0 40px #ffffff, 0 0 80px white, 0 0 90px #005504, 0 0 100px white, 0 0 140px white, 0 0 180px white; }
+
+.main {
+  background: url("../IMG/dark_wood.png");
+  background-repeat: repeat; }
+  .main .about .container {
+    overflow: visible;
+    position: relative; }
+    .main .about .container .foto {
+      width: 55%;
+      position: relative;
+      top: 400px;
+      z-index: 0;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); }
+      .main .about .container .foto img {
+        vertical-align: top;
+        width: 100%; }
+  .main .about article {
+    background: rgba(20, 20, 20, 0.7);
+    padding: 15px;
+    width: 50%;
+    position: relative;
+    top: 300px;
+    right: 75px;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+    float: right; }
+    .main .about article h3 {
+      font-size: 90px;
+      margin-bottom: 40px;
+      color: #F2994B;
+      font-family: "Alinea Typeface";
+      text-align: center; }
+      .main .about article h3:hover {
+        text-shadow: 0 0 5px #f2994b, 0 0 10px #f2994b; }
+    .main .about article p {
+      line-height: 28px;
+      margin-bottom: 15px;
+      font-family: "Segoe UI";
+      font-size: 19px; }
+  .main .menu {
+    padding-top: 100px;
+    margin-bottom: 40px; }
+    .main .menu .container-menu {
+      border: 5px solid #575757;
+      border-radius: 5px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+      background: rgba(14, 14, 14, 0.6);
+      padding-top: 10px;
+      overflow: hidden; }
+    .main .menu .container-menu2 {
+      border: 2px solid #ffffff;
+      background: transparent;
+      padding-top: 10px;
+      overflow: hidden; }
+    .main .menu .titulo {
+      font-size: 70px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: "Alinea Typeface";
+      color: #005504; }
+      .main .menu .titulo:hover {
+        text-shadow: 0 0 5px #005504, 0 0 10px #005504; }
+    .main .menu article {
+      width: 50%;
+      float: left;
+      padding-top: 20px;
+      text-justify: justify; }
+      .main .menu article .descripcion {
+        font-size: 20px;
+        color: #F25764;
+        clear: both; }
+    .main .menu .categoria {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      text-align: center; }
+    .main .menu .platillo {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      margin: 65px;
+      border-bottom: 4px dashed;
+      overflow: hidden; }
+    .main .menu .nombre {
+      font-size: 35px;
+      margin-bottom: 15px; }
+    .main .menu .precio {
+      font-size: 40px;
+      margin-bottom: 15px;
+      float: right; }
+  .main .galeria {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    border: 3px solid #505050; }
+    .main .galeria .foto {
+      width: 25%; }
+      .main .galeria .foto img {
+        width: 100%;
+        vertical-align: top;
+        opacity: 0.6;
+        max-width: 500px;
+        max-height: 500px;
+        border-radius: 1px;
+        cursor: pointer; }
+        .main .galeria .foto img:hover {
+          opacity: 1;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+  .main .location {
+    background: rgba(14, 14, 14, 0.6);
+    padding: 60px 0;
+    overflow: hidden;
+    font-size: 30px;
+    line-height: 65px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border: 3px solid #505050;
+    border-color: rgba(80, 80, 80, 0.9); }
+    .main .location .titulo {
+      text-align: center;
+      font-size: 90px;
+      line-height: 40px;
+      font-weight: 300;
+      padding-top: 20px;
+      margin-bottom: 100px;
+      font-family: "Alinea Typeface";
+      color: #005504; }
+    .main .location .direccion {
+      float: left;
+      width: 50%; }
+      .main .location .direccion .rec {
+        color: #005504; }
+    .main .location .horarios {
+      float: right;
+      width: 50%;
+      text-align: center;
+      overflow: hidden; }
+      .main .location .horarios .entre-semana {
+        width: 50%;
+        float: left;
+        text-align: center; }
+      .main .location .horarios .finde-semana {
+        width: 50%;
+        float: left;
+        text-align: center; }
+      .main .location .horarios .rec {
+        color: #005504; }
+      .main .location .horarios h4 {
+        color: #005504;
+        font-family: "Alinea Typeface";
+        font-size: 75px;
+        margin-bottom: 40px;
+        text-align: center; }
+  .main .map {
+    width: 90%;
+    margin: 10px auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    border-color: rgba(80, 80, 80, 0.9); }
+    .main .map iframe {
+      width: 100%;
+      max-height: 600px; }
+
+footer .copy {
+  text-align: center;
+  padding: 40px 0; }
+  footer .copy .neonverde:hover {
+    text-shadow: 0 0 5px #005504, 0 0 10px #005504, 0 0 20px #005504, 0 0 40px #005504, 0 0 80px #005504, 0 0 90px #005504, 0 0 100px #005504, 0 0 140px #005504, 0 0 180px #005504;
+    cursor: pointer; }
+
+@media screen and (max-width: 800px) {
+  header .menu {
+    text-align: center; }
+  header .textos h3 {
+    font-size: 18px; }
+  header .textos .name {
+    font-size: 30px; } }

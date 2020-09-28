@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lobster';
+  font-size: 16px;
+  background-color: #0e0e0e;
+  color: #f1f1f1;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  background: url(../IMG/fondo/blacksheep1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0;
+}
+
+header .container {
+  position: relative;
+  height: 700px;
+}
+
+header .container .menu {
+  text-align: right;
+  width: 100%;
+}
+
+header .container .menu .Weed {
+  color: #005804;
+  font-size: 50px;
+}
+
+header .container .menu .Weed:hover {
+  color: #f1f1f1;
+  background: #005804;
+  border-radius: 100%;
+  padding: 5px 7.5px;
+  cursor: pointer;
+}
+
+header .container .menu a {
+  color: #f1f1f1;
+  font-weight: 300;
+  font-size: 20px;
+  display: inline-block;
+  margin: 50px 20px;
+  text-decoration: none;
+  position: relative;
+  padding: 5px 5px;
+}
+
+header .container .menu a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ff0000;
+  border-radius: 1.5px;
+}
+
+header .container .textos {
+  width: 100%;
+  color: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  margin-top: -52px;
+  text-align: center;
+}
+
+header .container .textos .name {
+  font-size: 64px;
+  font-weight: 600;
+  font-family: 'Lobster';
+}
+
+header .container .textos .name span {
+  font-weight: 300;
+}
+
+header .container .textos .name .coffe {
+  font-family: 'Alinea Typeface';
+  color: #005804;
+  font-size: 82px;
+  margin-left: 0px;
+}
+
+header .container .textos h3 {
+  font-weight: 300;
+  font-size: 25px;
+  font-style: cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container .textos h3 p {
+  padding: 5px;
+  font-family: 'Alinea Typeface';
+  font-size: 40px;
+}
+
+header .container .textos h3 .weed {
+  -webkit-text-decoration: underline 3px #005804;
+          text-decoration: underline 3px #005804;
+}
+
+header .container .textos h3 .caffeine {
+  -webkit-text-decoration: underline 3px #885d00;
+          text-decoration: underline 3px #885d00;
+}
+/*# sourceMappingURL=main.css.map */
